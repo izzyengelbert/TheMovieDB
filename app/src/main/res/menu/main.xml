@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_now_playing"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/action_now_playing"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_genres"
+        android:orderInCategory="100"
+        android:title="@string/action_genres"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_highest_rated"
+        android:orderInCategory="100"
+        android:title="@string/action_highest_rated"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_most_popular"
+        android:orderInCategory="100"
+        android:title="@string/action_most_popular"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_upcoming"
+        android:orderInCategory="100"
+        android:title="@string/action_upcoming"
         app:showAsAction="never" />
 </menu>
